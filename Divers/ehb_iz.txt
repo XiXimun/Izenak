@@ -1,0 +1,414 @@
+CHANGALA André (Anhauze), PITRAU Maite
+(Atharratze), COSCARAT Jean-Michel (Baigorri),
+OCAFRAIN Mixel (Banka), NEGUELOUART Paxkal
+(Behorlegi), ANCHORDOQUY Jean-Michel (Bidarrai),
+BICAIN Jean-Michel (Gamarte), ETXEMENDI
+Johañe (Iruri), YBARGARAY Jean-Claude (Lakarra),
+NABARRA Dorothée (Lakarri), GOYHENEIX Jojo
+(Lekunberri), ELGOYHEN Monique (Lexantzü),
+QUIHILLALT Peio (Ligi), GOMEZ Ruben (Liginaga),
+IHIDOY Xebastian (Mendibe), BOSCQ Josette
+(Muskildi), OCAFRAIN Jean-Marc (Ortzaize),
+ETXEBERRIA Maite (Ozaze), AIRE Xole (Urepele).
+BISCAY Rose (Ahatsa), HARLOUCHET Maite
+(Ahatsa), LARRAMENDY Jean-Marc (Ahatsa),
+LOPEPE Anita (Ainiza-Monjolose), MIRAMON
+Cécile (Ainiza-Monjolose), PETOTEGUY Alain
+(Ainiza-Monjolose), PETOTEGUY Maite (AinizaMonjolose), ARROSSAGARAY Peio (Aintzile),
+IRAZOQUI Jakes (Aintzile), KURUTCHARRY
+Mizel (Aintzile), LANDABURU Denis (Aintzile),
+OURET Estebe (Aintzile), BIDAURRETA Antton
+(Aldude), HIRIGARAY Amaia (Aldude), SABAROTS
+Eztitxu (Aldude), CAMUS-ETCHECOPAR Arantxa
+(Aloze), SALLABERRY Alexis (Aloze), AURNAGUE
+Michel (Anhauze), BELCHIT Fabien (Anhauze),
+CAMY-ANSOLABEHERE Sabine (Anhauze),
+DELAHAYE Christian (Anhauze), IGOA Maider
+(Anhauze), IRIBARNE Beñat (Anhauze), MAITIA
+Pantxika (Anhauze), OCAFRAIN Alain (Anhauze),
+SALDUNBIDE Sylvie (Anhauze), AYCAGUER Patxi
+(Arrosa), CLAVERIE Peio (Arrosa), HEURTEBIZE
+Mirentxu (Arrosa), BORDACHAR Stéphane
+(Atharratze), INES Edith (Atharratze), IRIGARAY
+Laura (Azkarate), LAXAGUE Miren (Azkarate),
+ARANGOITS Isabelle (Baigorri), BIBES Jean-Paul
+(Baigorri), BIDART Betti (Baigorri), CURUTCHARRY
+Antton (Baigorri), DUPUY Maddalen (Baigorri),
+MOCHO Frantxoa (Baigorri), OLÇOMENDY Betti
+(Baigorri), INCHAUSPE Beñat (Banka), GALANT
+Maritxu (Barkoxe), IBANEZ Anne-Marie (Behorlegi),
+LERISSA Pantxika (Behorlegi), LERISSA Patricia
+(Behorlegi), JARAGOYHEN Jacques (Berrogaine),
+IBARROLA Paxkal (Bidarrai), LARREGUY ARROSSA
+Lidia (Bidarrai), ORHATEGARAY Ramuntxo (Bidarrai),
+SEYCHAL Antton (Bidarrai), CAMUS Frantxoa
+(Bildoze), JAUREGUI Argitxu (Donazaharre),
+DIRIBARNE Maitena (Donibane Garazi),
+ETCHEVERRY Mattin (Donibane Garazi), HENRY
+Isabelle (Donibane Garazi), LARRE Xabi (Donibane
+Garazi), NEGUELOUART Isabelle (Duzunaritze),
+OURTHIAGUE Maider (Duzunaritze), TEILLERIE
+Pantxika (Duzunaritze), ARRAMBIDE Pantxika
+(Eiheralarre), ALKHAT Xan (Etxebarre), DELEAU
+Christian (Etxebarre), SANS Anthony (Etxebarre),
+ISASA Haizea (Gamarte), OXANDABARATS Intza
+(Gamarte), OXANDABARATS Xabi (Gamarte),
+ZUBELDIA Maitena (Gamarte), TAUZIN Benoit
+(Gamere), LAFITTE Gilles (Idauze Mendi), ARROSSA
+Dominique (Irulegi), JAUREGUY Pantxika (Irulegi),
+MARTIN Olivier (Irulegi), OCAFRAIN Sylvain (Irulegi),
+OCAFRAIN Jean-Léon (Irulegi), ETCHEGOYHEN
+Beñat (Iruri), LARRORY Beñat (Iruri), RECA Elorri
+(Izpura), BIDART Patricia (Jatsu), SARRAILLET Jakes
+(Lakarri), IRIART Alexis (Larraine), ETCHEBARREN
+Bernadette (Lekunberri), PIERROT Myriam
+(Lekunberri), ETCHANCHU Dominique (Lexantzü),
+LIBILBEHETY Maite (Lexantzu), UHART Arnaud
+(Lexantzü), URRUTIKOETXEA Egoitz (Lexantzü),
+ABD EL MOTALB Sarah (Liginaga), BAQUE Pette
+(Liginaga), BETACHET Pierre (Liginaga), IRIART
+Philippe (Liginaga), MIRANDA Katia (Liginaga),
+ETCHEGOYHEN Eliane (Maule), ELKEGARAY
+Beñat (Maule), ETCHEVERRY Pierre-Michel
+(Mendikota), LUCUIX Julien (Mendikota), COLAS
+Véronique (Montori), AGUERGARAY Michel
+(Muskildi), AGUERGARAY-TXOIZ Maritxu (Muskildi),
+BARREIX Nathalie (Muskildi), BORTHAYRE JeanMarc (Muskildi), CASENAVE Laurent (Muskildi),
+CHIMIX Olivier (Muskildi), ELGART Xabi (Muskildi),
+AGUERGARAY Léonie (Muskildi), BARREIX Daniel
+(Muskildi), UHALDEBORDE Hervé (Muskildi),
+AYCAGUER Elorri (Ortzaize), CASIRIAN Elena
+(Ortzaize), CHAMALBIDE Corinne (Ortzaize),
+DACHAGUER Peio (Ortzaize), FALXA Odile
+(Ortzaize), HEGUY Antton (Ortzaize), INARRA
+Pantxoa (Ortzaize), IRIART Jean-Claude (Ortzaize),
+JORAJURIA Ramuntxo (Ortzaize), LEKUMBERRY
+Xantxo (Ortzaize), MATEO Jean-François (Ortzaize),
+ETXART Joël (Ozaze), UTHURRIAGUE Pantxika
+(Ozaze), BERETERBIDE Peio (Uharte Garazi),
+BEDECARRATZ Peio (Urdiñarbe), ETCHEBERRY
+Jean-Jacques (Urdiñarbe), GLAISE Pierre (Urepele),
+TEXIER Poline (Urepele), IRIART Peio (Zaro), LENCO
+Xalbat (Zaro). 
+
+Aldude / Les Aldudes : Iratchet Jean-Noël, Sabarots
+Aloña, Setoain Peio. Anhauze/Anhaux: Ansolabehere
+Monique, Ansolabehere Nadia, Aurnague Goity
+Patricia, Caliot Patxi, Camy Joël, Changala Eñaut,
+Changala Ximun, Changala Geneviève, Changala
+Naia, Clery Jeanine, Daguerre Intza, De Portuondo
+Aitor, Elizondo Patrick, Etxemendi Laida, Eyherabide
+Hélène, Galant Christine, Harignordoquy Miren,
+Iputxa Ani, Iribarne Anamari, Iribarne Kattin,
+Ocafrain Bixente, Oçafrain Sophie, Oçafrain Sylvie,
+Oyhagaray Cécile, Oyhagaray Marie-Jeanne,
+Oyhagaray Pierre, Riouspeyrous Amaia, Saldumbide
+Albert, Saldunbide Gilen, Saldunbide Eñaut. Arrosa/
+St-Martin-d’Arrossa : Amestoy Kattin, Ampo
+Martine, Atchoarena Pantxika, Atchoarena Leire,
+Brust Antton, Brust Jean-Michel, Brust Maika,
+Darraidou Sylvie, Domecq Peio, Ernaga Xantxo,
+Errotabehere Gilen, Errotabehere Ana, Errotabehere
+Kako, Etchemendy Argi, Etchemendy Patxi, Indaburu
+Xan, Indaburu Maddi, Irigaray Babeth, Irigaray
+Laurent, Irigaray Leire, Irigaray Gexan, Vallee JeanBaptiste. Azkarate/Ascarat : Bidegain Pantxika,
+Bidegain Patxi, Costa Amaia, Errekart Maialen,
+Errekart Olaia, Galant Amaia, Galant Eneko, Iputcha
+Christine, Irigaray Dominique, Irigaray Jean-Marc,
+Irigaray Graxi, Lapeyrade Joan, Laxague Maitena,
+Laxague Annie, Laxague Pierre. Baigorri/StEtienne-de-Baïgorry : Alfaro Gexan, Alfaro Jenofa,
+Alfaro Teixa, Arangoits Benat, Ardantz Arbil, Ardantz
+Unai, Arreguy Andde, Ascarain Laurent, Bergouignan
+Ximun, Bergouignan Maider, Bibes Duchesne
+Sandrine, Bidart Leire, Bidart Amaia, Bidart Filipe,
+Bidart Jojo, Bidart Laure, Bidart Oihana, Bidart
+Patxi, Bidart Ramuntxo, Bidart Kattalin, BidartObiague Ihintza, Biscay Maitena, Brust Lolita, Camus
+Anita, Cantero Argitxu, Castorene Amaia, Cherbero
+Popol, Cherbero Silbi, Cherbero Kattalin, Cherbero
+Maika, Cherbero Gillen, Chorhy Dominique, Ciaurriz
+François, Coscarat Marie-Jo, Coscarat Sauveur,
+Coscarat Peio, Coscarat Mirentxu, Costera Eñaut,
+Costera Gexan, Costera Jean-Louis, Crouspeyre
+Kaiet, Curutcharry Mikel, Curutcharry Gilen,
+Curutcharry Peio, Curutcharry Xan, Dumoulin Lisa,
+Dupuy Roger, Dupuy Filipe, Errotabehere Joseph,
+Errotabehere Antton, Errotabehere Xilbi, Etchepare
+Christiane, Etcheverria Pantxo, Etcheverria Maider,
+Etcheverry Ellande, Eyherabide Filou, Flores Pantxo,
+Galleras Maialen, Goikoetxea Ainara, Harignordoquy
+Jean-Louis, Harignordoquy Eztitxu, Harignordoquy
+Maite, Haritxelar Eñaut, Hiriburu Juliana, Hirigarai
+Pantzo, Hirigaray Daniel, Hirigaray Kattin, Indart
+Xanleon, Indart Kattalin, Indart Monika, Indart
+Pantxo, Indart Ibai, Indart Bixente, Indart Oihan,
+Indo Paxkal, Irigaray Bixente, Larre Paxkal, Lucantis
+Muriel, Luro Béatrice, Marticorena Erramun, Mirailh
+Chantal, Muret Michèle, Obiague Ani, Oçafrain JeanPaul, Olçomendy Argia, Rampillon Maël, Rey Yolanda,
+Saint-Esteben Arño, Ustaritz Eneko, Ustaritz Gilles,
+Videgain Bixente, Zarranz Serge, Zubieta Ximun,
+Zubieta Txomin. Banka/Banca : Arambel Chantal,
+Etxekolanea Gabriel, Harignordoquy Antton.
+Bidarrai/Bidarray: Aguerre Elena, Aguerre Kristina,
+Aguerre Jaki, Aguerre Jean-Paul, Aguerre Leire,
+Alvarez Xiril, Amestoy Amaia, Bidegaray Bixente,
+Borromée Xabier, Darraidou Joelle, Eliceche Marcel,
+Etchart Battitt, Etchart Sylvie, Etchart Ihintza,
+Etchart Didier, Etchebehere Marcelle, Etcheverria
+Mattin, Etcheverry Gisèle, Etcheverry Peio, Haristoy
+Maia, Haristoy Miren, Inarra Manu, Iturbide
+Fabienne, Iturbide Paxkal, Jorajuria Peio, Jorajuria
+Xabi, Mateo Mizel, Orhategaray Bernadette,
+Orhategaray Ellande, Orhategaray Miren, Parachu
+Xan, Poydessus Marie-Claude, Sallaberry Kattalin,
+Sallaberry Peio, Sallaberry Maitexa, Sallaberry Patxi,
+Sallaberry Maylis, Sallard Joelle, Seychal Beñat,
+Seychal Mattin, Suhas Dominique, Villeneuve Antton.
+Irulegi/Irouléguy : Alfaro Daniel, Arrossa Françoise,
+Cherbero Gexan, Cherbero Mikel, Cocagne Philippe,
+Etxemendi Erramun, Etxemendi Janamari, Fourcade
+Luxi, Goikoetxea Ganix, Goikoetxea Mirentxu,
+Hirigaray Pantxo, Lambert Elorri, Lambert Ekhi,
+Leconte-Cocagne Virginie, Mateo Béatrice, Mateo
+Monique, Mateo Mirentxu, Mateo Michèle, Prat
+Pantxika, Riouspeyrous Iban, Riouspeyrous Michel,
+Riouspeyrous Thérèse, Riouspeyrous Teo. Lasa/
+Lasse : Ampo Charlotte, Ampo Sébastien, Bosom
+Pantxoa, Bouffartigue Sarah, Espellet Manolo,
+Espellet Lemeunier Mateu, Goni Vincent, Goyenaga
+Jean-Marc, Inda Jean-Michel, Iribarne Xeb, Iribarne
+Marc, Iribarne Olhagarai Maia, Iribarne Olhagarai
+Leire, Laffitte Sophie, Olhagarai Denise, Souillart
+Stéphanie, Urrutia Laurent, Urrutia Añamari.
+Ortzaize/Ossès : Aizager Jean-Michel, Amestoy
+Ana, Amestoy Dominique, Amestoy Yvonne,
+Artiguebieille Xabi, Bereterbide Marie, Bidart
+Joan, Bidart Mikel, Bordagarai Kittof, Bordagaray
+Marie, Bourrette Anthony, Casirain Elena, Casirain
+Maite, Casiriain Pilar, Cuburu Maialen, Dupuy
+Michel, Etchebehere Grazi, Falxa Anita, Geerebaert
+François, Goyty Argitxu, Hirigaray Bernadette,
+Inarra Jacqueline, Inarra Ximun, Iribarren Jeanine,
+Jaunarena Jean-Paul, Jaunarena Marine, Jaunarena
+Jon, Jorajuria Bedaxagar Graxi, Kammenthaler Eric,
+Lekumberri Terexa, Lekumberry Betti,
+Lissarague Vincent, Mateo Bixente, Mateo Laida,
+Nogues Peio, Oçafrain Naia, Pebet Txomin, Pebet
+Jean-Louis, Penalva Robert, Penalva Thérèse, Razin
+Maite, Sallaberry Ibon, Soule Peio, Urricariet Mizel.
+Urepele/Urepel: Aire David, Aire Miren, Amundarain
+Amaia, Arrambide Pierre, Felix Nadine, Hasquet Aire
+Mariclaude, Iturria Maialen.
+
+Ahatsa/Ahaxe : Biscay Xantiana, Biscay Koldo,
+Biscay Xabier, Harlouchet Xabi, Lanathoua Mahaño,
+Sabarots Sandrine, Ustarroz Elena, Vigroux Cyril,
+Ybargaray Marie-Jo, Ybargaray Pierre, Ybargaray
+Miren. Ainiza-Monjolose/Ainhice-Mongelos :
+Duguine Gisèle, Duguine Maialen, Etxeberri Antton,
+Falxa Elorri, Gorostiague Marie-Agnès, Iracabal
+Jean-Bernard, Iracabal Hélène, Irigoyen Frantxua,
+Irigoyen Paxkal, Lopepe Maritxu, Sallaberry
+Jeannot. Aintzile/Aincille : Etxemendi Kattin,
+Irazoqui Gisèle, Irazoqui Luken, Irazoqui Naroa,
+Kratochvil Claude, Kratochvil Milena, Kurutcharry
+Florence, Ouret Argitxu, Pessans Maialen. Arnegi/
+Arnéguy : Auzqui Mirentxu, Auzqui Jeanot, Auzqui
+Maialen, Camino Kattin, Camino Martin, Camino
+Maddi, Champon Urrizaga Pauline, Urrizaga
+Antton. Behorlegi/Béhorléguy : Lerissa Mattin,
+Torre Gorka. Buztintze/Bustince : Arreguy Marie,
+Arreguy Daniel, Arreguy Agnès, Arreguy MariePaule. Donazaharre/St-Jean-le-Vieux : Elizondo
+Jean-Michel, Etcheverry Antton, Gastambide
+Adèle, Gastambide Txomin, Iralour Peio, Jasse
+Jules, Kratochvil Thomas, Larrieu Maider, Larrieu
+Mikel, Larrieu Jean, Larrieu Maddi, Laval Valérie,
+Laxague Daniel, Laxague Sandrine, Oillataguerre
+Maider, Pebet Jacqueline. Donibane-Garazi/
+St-Jean-Pied-de-Port : Aguergaray Silbi, Bidart
+Erramun, Bosom Arantxa, Carricart Geneviève,
+Chevalier Martine, Chevalier Francis, Chevalier
+Ainez, Costera Ani, Duboscq Christine, Elizondo
+Xebastien, Espellet Petotegi Marie-Nieves, Etchart
+Maia, Etchart Ana Mari, Etchart Peio, Etchemendy
+Sabine, Etcheverry Yvette, Etcheverry Jean-Léon,
+Falxa Iban, Galant Jean Pierre, Gastambide Liliana,
+Gastambide Mikel, Gratien Kamila, Harispuru
+Ellande, Haritxelhar Elorri, Harlouchet Peio,
+Hirigoyen Michel, Irola Pettan, Jauregui Patxi,
+Jauregui Kati, Kurutcharry Béa, Labarry Kristel,
+Labarry Pantxika, Larralde Eiande, Larralde Patrick,
+Larralde Patricia, Larre Kose, Larre Maite, Larre
+Monique, Loustaunau Nadou, Lucu Mattin, Lucu
+Bixente, Martin Emilie, Milhac Remy, Oillarburu
+Eki, Poutcou Maite, Torre Maialen. Duzunaritze/
+Bussunarits : Errecart Mattin, Esponde MarieMichèle, Incargarat Peio, Lerissa Xabina, Oillarburu
+Jean-Bernard, Oillarburu Xalbat, Oillarburu MarieMichèle, Oillarburu Elena, Ourthiague Marguerite,
+Ourthiague Henri. Eiheralarre/St-Michel :
+Arakama Hegoa, Arrambide Gaxuxa, Eliceits
+Françoise, Etchegaray Stéphane, Guezainburu
+Jakes, Guezainburu Dominique, Iputxa Peio, Iputxa
+Bernadette, Larzabal Sylvie, Queheillalt Mizel, StPée Jean-Marie. Ezterenzubi/Estérençuby : Iriarte
+Maialen, Olazabal Rafael, Paularena Jon, Zamponi
+Xantal. Gamarte/Gamarthe : Berhocoirigoin Iñaki,
+Cachenaut Cécile, Iralour Xarle, Iralour Etcheverry
+Véronique, Larramendy Hervé, Loyatho Pantxika,
+Loyatho Xabina, Martin Aurore, Mujika Andonegi
+Julen, Oxandabarats Luxi, Oxandabarats Arantxa,
+Oxandabarats Arño, Oxandabarats Danielle.
+Izpura/Ispoure : Aphessetche Caroline, Arosteguy
+Mirentxu, Bidegain Nicole, Eppherre Amaiur,
+Etchandy Gabi, Etchandy Pascaline, Galant Jean
+Michel, Galant Catherine, Paris Christophe,
+Pochelu Pantxika, Sainte-Marie Luixa, Urrutia
+Emile. Jatsu/Jaxu : Arotcarena Uzuri, Arotcarena
+Beñat, Arrambide Kattin, Audy Jennyfer, Eneriz
+David, Etcheverria Jean-Michel, Etcheverria
+Joakin, Sarçabal Stéphane. Lakarra/Lacarre :
+Oxandabarats Maite. Lekunberri/Lécumberry :
+Cachenaut Jean-Marc, Carriquiry Paul, Etcharren
+Beñat, Etcharren Guillaume, Etcharren Jeanne,
+Goyheneix Maider, Lapébie Sophie, Ourthiague
+Jon. Mendibe/Mendive : Ihidoy Mikela, Ihidoy
+Kaiet, Ihidoy Mattin. Uharte-Garazi/UhartCize : Arbelbide Beñat, Argain Monika, Bacho
+Dominique, Barreneche Maider, Etchemendy
+Gorostiague Marie-Andrée, Gorostiague JeanMichel, Iphutcha Mapi, Iribarne Mikel, Neguelouart
+Maite, Neguelouart Xalbat, Zozaya Bixente. Zaro/
+Caro : Irigoin Bernadette, Maitia Stéphanie, Ouret
+Ttale.
+
+Ainharbe/Ainharp : Arhancet Teja, Armagnague
+Marie-Pierre, Foirien Jean, Foirien Johanne,
+Larranaga Fred, Sadot Jasmine, Sallaberemborde
+Kattalin. Aloze/Alos : Acarq Madeleine, Aguer
+Maite, Casenave Margaita, Etchart Unai,
+Etcheberry Anne-Marie, Etxart Niko, Etxart
+Txomin, Ibar Isabelle, Incagaray Jeanne, Incagaray
+René, Lacroix Pierre, Petit Maianita, Pribat Bettan,
+Riffard Sylvain. Altzai/Alçay : Tanco Christian.
+Altzürükuü/Aussurucq : Mendizabal Mathieu.
+Atharratze/Tardets : Bereciartua Laurentx,
+Bordachar Annie, Cadiou Armelle, Etchebarne
+Jüje, Laborde Annie, Laborde Beñat, Lacroix
+Bettan, Lacroix Olivier, Larrandaburu Mertxe,
+Larrandaburu Robert “pipas”, Larrory Maider, Pitrau
+Anita, Sagarciague Isabelle. Barkoxe/Barcus :
+Agor Jano, Agor Teija, Aguer Ani, Arcanuthurry
+Henri, Arcanuthurry Jean, Erbinartegaray Nicole,
+Etchebarne Joseph, Etcheberry Alain, Etchecopar
+David, Etxebarria Gonzalo, Gamiochipi Gillen, Garat
+Polo, Guilmain Loic, Iriart Aña, Laborie Laurence,
+Lagune Daniel, Lagune Maritxu, Luro Johañe,
+Onnainty Iban, Onnainty Joseph, Queheille Kleina,
+Queheille Margita, Queheille Otxanda, Queheille
+Patrick, Sapioule Joseph, Tourreuil Jean-Marie, 
+
+Tourreuil Sophie, Uthurry Guillen. Berrogaine/
+Berrogain : Clamaron Landivar Marie. Bildoze/
+Viodos : Camus Laida, Camus Etchecopar
+Argitxu, Etchecopar Camus Lüxi, Etxart Allande,
+Etxart Margaita, Guiresse André, Lephaille Maite,
+Mazusta Joxe-Leon, Nassiet Denise, Nassiet Pette,
+Pagoaga Pilar, Petillon Sophie, Uthurralt Allande,
+Uthurralt Hélène, Uthurralt Mattin, Uthurralt
+Ximun. Etxebarre/Etchebar : Deleau Monique,
+Garicoitz Marie, Larrandaburu Oihana. Ezpeize/
+Espès : Ayphassorho René, Elgoyhen Armand,
+Elgoyhen Nathalie, Irigoien Maialen. Gamere/
+Camou : Tauzin Mathieu. Garindaine/Garindein :
+Etcheber Pantxika, Latchere Olivier, Uthurralt
+Ximun. Gotaine/Gotein : Etchebest Christine,
+Etchebest Frantxoa, Etchebest Beñat, Etchebest
+Maialen, Etchecopar Andde, Etchecopar Erramun,
+Etchecopar Madouce, Etchecopar Martin,
+Etcheverry Panpi, Etcheverry Sophie, Etxekopar
+Maika, Etxekopar Mixel, Galharet Martine,
+Harispe Gérard, Hoqui Maia, Lougarot Nicole,
+Othondo Marie-Hélène, Othondo Marie-Pierre.
+Hauze/Haux : Agorrody Agnès, Bassagaisteguy
+Jean-Claude, Bassagaisteguy Laida, Serre Ashley,
+Serre Jean-Paul. Idauze-Mendi/Idaux-Mendy :
+Eppherre André, Etchart Dani, Hastoy Maite,
+Rivoalan Joan, Samalbide Anne-Marie, Samalbide
+Pierre. Lakarri/Lacarry : Sarraillet Isabel.
+Larraine/Larrau : Iriart Elisabeth, Iriart Gilen,
+Iriart Xavier, Larrandaburu Katti, Larrandaburu
+Robert. Lexantzü/Lichans : Althabegoity Hélène,
+Casabella Virginia, Cazaux Alain, Chorho Albert,
+Chorho Isabelle, Elgoyhen Ainiz, Elgoyhen Peio,
+Eyheramendy Ximun, Iritcity Etchart Maider,
+Jaragoyhen Mathieu, Lafon Etxeberri Michèle,
+Larralde Ixa, Picard Christian, Picard Lucie,
+Plagnard François, Restoyburu Beñat, Thiry
+Joseph, Mazusta Aintzina. Ligi/Licq : Chuburu
+Bruno, Etxebest Jujé, Hourcourigaray Maider,
+Quihillalt Maddalen. Liginaga/Laguinge : Baque
+Bixente, Betachet Elisabeth, Betachet Isabelle,
+Betachet Mathilde, Betachet Maurice, Elgoyhen
+Christelle, Spezza Jo, Uthurriague David. Maule/
+Mauléon : Aguerregaray Arnaud, Aguerregaray
+Sandra, Albisua Gertrude, Amestoy Maritxu,
+Arhancet Joana, Arla Joël, Ayerdi Anne, Ayerdi
+Gilda, Beguerie Marie, Borda Kaiet, Bordachar
+Jean, Bordagaray Bettan, Caset Xabi, Chimix
+Karine, Claverie Bixente, Claverie Marc, Claverie
+Régis, Daubas Xabi, Decaudin Gisèle, Dregger
+Renate, Elkegaray Pierre, Erdozaincy-Etchart
+Manex, Etchebest Laure, Etxart Joana, Gamio
+Cindy, Garay Joseba, Goyhenexpe Bixente,
+Guiresse Battitta, Guiresse Iulen, Guiresse
+Niko, Haritxelhar Jean-Marc, Hastaran Fantxoa,
+Hirigoyen Maite, Hontaas Mailen, Hontaas Erbin
+Maite, Houret Arnaud, Houret Maylis, Hullin Sylvie,
+Indaburu Julie, Irigoyen Aña Mari, Josue Charlie,
+Lacarrieu Mado, Lacarrieu Panpi, Lafourcade
+Mathilde, Larragneguy Pascal, Larroque Allande,
+Larroque Battitt, Larroque Joel, Larroque Martine,
+Larroque Pierre, Ligueix Jean-Michel, Ligueix
+Maylis, Ligueix Maiana, Malharin Ihintza, Malharin
+Txomin, Malharin Nahia, Malharin Jojo, Martin
+Francis “xixi”, Martin Jacqueline, Moraine JeanFrançois, Queheille Andrée, Sallaberemborde
+Jakes, Samalbide Cédric, Sarasola Beñat.
+Mendikota/Menditte : Etcheverry Martine,
+Lucuix Flora, Lucuix Michel, Lucuix Txema,
+Lucuix Haicaguerre Texa. Mithikile/Moncayolle :
+Etchart Marie-José, Etcheberry Pierra, Mas
+Fanchon, Poineau Anita, Poineau Francis,
+Saint-Esteben Mikele, Uthurralt Iker, Uthurralt
+Lauentx. Montori/Montory : Attyasse Hiram,
+Decung Jean-Pierre, Farge Hervé, Heguiaphal
+Eliane. Muskildi/Musculdy : Amulet Antton,
+Apezetxe Edurne, Barreix Allande, Boscq PierrePaul, Cachenaut Jean-Baptiste, Chimix Solange,
+Gastellussarry Maddi, Gattinoni Melvyn, Jaureguy
+Christine, Mainhaguiet Elena, Mainhaguiet
+Lorea, Mainhaguiet Michel, Mainhaguiet
+Mirentxu, Miramont Julien, Othatceguy Céline,
+Sallaberrenborde Michel, Uhalt Laure. Ozaze/
+Ossas : Arla Maika, Pinheiro Sergio, Uthurriague
+Andde, Uthurriague Argi. Sohüta/Chéraute :
+Aren Mireille, Berrogain Batitte, Casamajou JeanBernard, Casamajou Leire, Chabalgoity Laurence,
+Elkegaray Maider, Etchegoyhen Laura, Errezarret
+Allande, Estecahandy Baptiste, Estecahandy Léa,
+Guimon Sabrina, Heguiaphal Beñat, Heguiaphal
+Maider, Heguiaphal Mattin, Hutter Sarah,
+Iroulart Pierre, Mora Frédéric, Negueloua Pierre,
+Patalagoiti Pette, Patalagoiti Hélène, Recondo
+Gérard, Recondo Maia, Recondo Sylvie, SarrailhGalant Agnès. Urdiñarbe/Ordiarp : Aguergaray
+Luxi, Aguergaray Marie-Hélène, Bedecarratz Jean,
+Bedecarratz Ximun, Bedaxagar Maider, Berrogain
+Luisa, Berrogain Senjan, Bordagaray Gabi,
+Carriquiriborde Jean-Jacques, Egurbide Mathilde,
+Etchegoinberry Benat, Etchegoinberry Bixintxo,
+Etchegoinberry Dominique, Etchegoinberry Iban,
+Etchegoinberry Isabelle, Etchegoinberry Mado,
+Etchegoinberry Maiana, Etchegoinberry Maite,
+Etchegoinberry Xabi, Etcheverria Pettan, Etxart
+Erik, Godement Anne, Herrera Eric, Loustau
+Patrick, Loustau Nicole, Negueloua Antton,
+Negueloua Benat, Negueloua Gillen, Ourthiague
+Argitxu, Recalt Ttittika, Salle Gene, Sarasola
+Maider, Tranchez Hélène. Urrüstoi/Arrast :
+Davant Jean-Louis. Zalgize/Sauguis : Arlandes
+Lucie, Capot Thornary Haitz, Capot Thornary Ibai,
+Hoqui Bettan, Tampigny Stéphane, Capot Patxi,
+Hoqui Charles, Hoqui Joana, Hoqui Maider, Hoqui
+Thérèse, Thornary Marie-José.
