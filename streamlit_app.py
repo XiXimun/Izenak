@@ -1,20 +1,20 @@
 import streamlit as st
-import plotly.express as px
 
-from sources.utils import get_names, get_df
+from sources.utils import get_names, get_df, get_departments, build_fig, get_year_range
 
 
-#---------------------------------- general parameters
+# ----------------- general parameters -----------------
 
 names_file = './data/insee.fr/dpt2022.csv'
 
+# ------------------------------------------------------
+
 
 def home():
-    st.title('Prénoms')
-    st.write('Welcome to the Home page mon amou!')
+    st.title(':baby: Tout savoir sur les prénoms !')
+    st.write("Vous trouverez ici toutes les statistiques des prénoms donnés en France recensés par l'INSEE.")
 
     df = get_df(names_file)
-
 
     sexes = st.multiselect(label='Fille ou garçon ?', options=['Fille', 'Garçon'])
     sexes = [2 if x == 'Fille' else 1 for x in sexes]
@@ -25,35 +25,34 @@ def home():
     df = df[df['prénom'].isin(names_list)]
 
     if names_list:
-        df = df.groupby(by=['prénom', 'année']).agg(nombre=("nombre", "sum")).reset_index()
-        fig = px.line(df, x="année", y="nombre", title=f'Naissances en France', color='prénom', markers=True)
-        fig.update_yaxes(rangemode="tozero")
+        departments_list = get_departments(df)
+        departments_list = st.multiselect('Choisis une zone géographique', departments_list)
+        if departments_list:
+            df = df[df['département'].isin(departments_list)]
+
+        year_min, year_max = get_year_range(df)
+        year_min, year_max = st.slider('Choisis une période', year_min, year_max, (year_min, year_max))
+        df = df[df['année'].isin(range(year_min, year_max + 1))]
+
+        fig = build_fig(df)
         st.plotly_chart(fig, use_container_width=True)
 
     # st.dataframe(df.reset_index(drop=True))
 
 
-
-
-
 def about():
-    st.title('A propos ...')
-    st.write('Données provenant de https://www.insee.fr')
-    
-
-    
-
-
-
+    st.title('À propos')
+    st.write("Les statistiques proviennent des données fournies par l'INSEE.")
+    st.write("Vous retrouvevez les prénoms donnés en France entre 1900 et 2022. Les prénoms donnés moins de 3 fois par an et par département ne sont pas reportés.")
+    st.write("Toutes suggestions, remarques, corrections ou encouragements peut être transmis à xxx@xxx.com.")
 
 
 def main():
-    st.sidebar.title('Navigation')
-    page = st.sidebar.radio("Go to", ["Accueil", "A propos"])
+    page = st.sidebar.radio(" ", ["Accueil", "À propos"])
 
     if page == "Accueil":
         home()
-    elif page == "A propos":
+    elif page == "À propos":
         about()
 
 
