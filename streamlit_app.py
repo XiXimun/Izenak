@@ -43,11 +43,13 @@ def home():
 def about():
     st.title('À propos')
     st.write("Les statistiques proviennent des données fournies par l'INSEE.")
-    st.write("Vous retrouvevez les prénoms donnés en France entre 1900 et 2022. Les prénoms donnés moins de 3 fois par an et par département ne sont pas reportés.")
-    st.write("Toutes suggestions, remarques, corrections ou encouragements peut être transmis à xxx@xxx.com.")
+    st.write("Vous retrouverez les prénoms donnés en France entre 1900 et 2022. Les prénoms donnés moins de 3 fois par an et par département ne sont pas reportés.")
+    st.markdown('Toutes suggestions, remarques, bugs ou encouragements peuvent être transmis au webmaster: <a href="mailto:web.xilo@gmail.com">web.xilo@gmail.com</a>', unsafe_allow_html=True)
+
 
 
 def main():
+    st.set_page_config(page_title='Prénoms', page_icon=':baby:')
     page = st.sidebar.radio(" ", ["Accueil", "À propos"])
 
     if page == "Accueil":
