@@ -47,19 +47,44 @@ def get_year_range(df):
 
 
 @st.cache_data
-def get_stats(names_list, df_allnames):
+def get_names_stats(names_list, df_allnames):
     df_allnames_grp = df_allnames.groupby(['prénom', 'année']).agg(nombre=('nombre', 'sum')).reset_index()
 
     df = pd.DataFrame()
-    for i, df_allnames_iyear in df_allnames_grp.groupby('année'):
+    for _, df_allnames_iyear in df_allnames_grp.groupby('année'):
         df_allnames_iyear['popularité (rang)'] = df_allnames_iyear['nombre'].rank(method='max', ascending=False).astype('int')
-        df_allnames_iyear['popularité (%)'] = 100*(1. - df_allnames_iyear['nombre'].rank(method='max', ascending=False, pct=True))
-        # dft = dft.sort_values(['nombre', 'prénom'], ascending=[False, True]).reset_index(drop=True)
-
+        df_allnames_iyear['popularité (%)'] = (1. - df_allnames_iyear['nombre'].rank(method='max', ascending=False, pct=True))
         df_iyear = df_allnames_iyear[df_allnames_iyear['prénom'].isin(names_list)]
         df = pd.concat([df, df_iyear])
     return df
 
+
+@st.cache_data
+def get_nombre_naissance_fig(df):
+    fig = px.line(df, x='année', y='nombre', title='Nombre de naissances', color='prénom', markers=True)
+    fig.update_yaxes(rangemode="tozero")
+    return fig
+
+
+@st.cache_data
+def get_popularite_fig(df, type_pop):
+    fig = px.line(df, x="année", y=f"popularité ({type_pop})", title='Popularité', color='prénom', markers=True)
+    if type_pop == 'rang':
+        fig.update_yaxes(rangemode="tozero", autorange="reversed")
+    elif type_pop == '%':
+        fig.update_layout(yaxis_range=[0, 1], yaxis_tickformat=".0%")
+
+    return fig
+
+
+@st.cache_data
+def get_all_stats(df_allnames):
+    df_allnames_grp = df_allnames.groupby(['prénom']).agg(nombre=('nombre', 'sum')).reset_index()
+    df_allnames_grp['popularité (rang)'] = df_allnames_grp['nombre'].rank(method='max', ascending=False).astype('int')
+    df_allnames_grp['popularité (%)'] = 100*(1. - df_allnames_grp['nombre'].rank(method='max', ascending=False, pct=True))
+    df_allnames_grp = df_allnames_grp.sort_values(['nombre', 'prénom'], ascending=[False, True]).reset_index(drop=True)
+
+    return df_allnames_grp
 
 @st.cache_data
 def build_map(df):

@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from sources.utils import get_names, get_df, get_departments, get_year_range, build_map, get_stats
+from sources.utils import get_names, get_df, get_departments, get_year_range, get_names_stats, get_all_stats, get_nombre_naissance_fig, get_popularite_fig
 
 
 # ----------------- general parameters -----------------
@@ -39,26 +39,18 @@ def un_prenom():
         df_selnames = df_selnames[df_selnames['année'].isin(range(year_min, year_max + 1))]
         df_allnames = df_allnames[df_allnames['année'].isin(range(year_min, year_max + 1))]
 
-        df = get_stats(names_list, df_allnames)
+        df = get_names_stats(names_list, df_allnames)
 
-        fig = px.line(df, x='année', y='nombre', title='Nombre de naissances', color='prénom', markers=True)
-        fig.update_yaxes(rangemode="tozero")
+        fig = get_nombre_naissance_fig(df)
         st.plotly_chart(fig, use_container_width=True)
 
         type_pop = st.radio('Popularité :', ['rang', '%'], horizontal=True, captions=['Classement absolu', 'Classement relatif'])
 
-        fig = px.line(df, x="année", y=f"popularité ({type_pop})", title='Popularité', color='prénom', markers=True)
-        if type_pop == 'rang':
-            fig.update_yaxes(rangemode="tozero")
-            fig.update_yaxes(autorange="reversed")
-        elif type_pop == '%':
-            fig.update_layout(yaxis_range=[0, 100])
+        fig = get_popularite_fig(df, type_pop)
         st.plotly_chart(fig, use_container_width=True)
 
         # fig = build_map(df_selnames)
         # st.plotly_chart(fig, use_container_width=True)
-
-    # st.dataframe(df_selnames.reset_index(drop=True))
 
 
 def prenoms_populaires():
@@ -66,22 +58,24 @@ def prenoms_populaires():
     st.title(':star2: Les prénoms populaires !')
     st.write("Vous trouverez ici toutes les statistiques des prénoms donnés en France recensés par l'INSEE.")
 
-    df = get_df(names_file)
+    df_allnames = get_df(names_file)
 
     sexes = st.multiselect(label='Fille ou garçon ?', options=['Fille', 'Garçon'])
     sexes = [2 if x == 'Fille' else 1 for x in sexes]
-    df = df[df['sexe'].isin(sexes)]
+    df_allnames = df_allnames[df_allnames['sexe'].isin(sexes)]
 
-    departments_list = get_departments(df)
-    departments_list = st.multiselect('Choisis une zone géographique', departments_list)
-    if departments_list:
-        df = df[df['département'].isin(departments_list)]
+    if sexes:
+        departments_list = get_departments(df_allnames)
+        departments_list = st.multiselect('Choisis une zone géographique', departments_list)
+        if departments_list:
+            df_allnames = df_allnames[df_allnames['département'].isin(departments_list)]
 
-    year_min, year_max = get_year_range(df)
-    year_min, year_max = st.slider('Choisis une période', year_min, year_max, (year_min, year_max))
-    df = df[df['année'].isin(range(year_min, year_max + 1))]
+        year_min, year_max = get_year_range(df_allnames)
+        year_min, year_max = st.slider('Choisis une période', year_min, year_max, (year_min, year_max))
+        df_allnames = df_allnames[df_allnames['année'].isin(range(year_min, year_max + 1))]
 
-    st.dataframe(df.reset_index(drop=True))
+        df = get_all_stats(df_allnames)
+        st.dataframe(df.reset_index(drop=True))
 
 
 def a_propos():
@@ -93,8 +87,7 @@ def a_propos():
 
 def main():
     st.set_page_config(page_title='Prénoms', page_icon=':baby:')
-    # page = st.sidebar.radio(' ', ['Un prénom', 'Prénoms populaires', 'À propos'])
-    page = st.sidebar.radio(' ', ['Un prénom', 'À propos'])
+    page = st.sidebar.radio(' ', ['Un prénom', 'Prénoms populaires', 'À propos'])
 
     if page == "Un prénom":
         un_prenom()
