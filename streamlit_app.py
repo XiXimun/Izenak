@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from sources.utils import get_names, get_df, get_departments, get_year_range, get_names_stats, get_all_stats, get_nombre_naissance_fig, get_popularite_fig
+from sources.utils import get_names, get_df, get_departments, get_year_range, get_names_stats, \
+                            get_all_stats, get_nombre_naissance_fig, get_popularite_fig, build_map, \
+                            get_departement_stats
 
 
 # ----------------- general parameters -----------------
@@ -49,8 +51,14 @@ def un_prenom():
         fig = get_popularite_fig(df, type_pop)
         st.plotly_chart(fig, use_container_width=True)
 
-        # fig = build_map(df_selnames)
-        # st.plotly_chart(fig, use_container_width=True)
+        if len(names_list) == 1:
+            # df_departement = get_departement_stats(names_list, df_allnames)
+            type_map = st.radio('Colorer la carte par:', ['nombre', 'popularité (rang)', 'popularité (%)'], horizontal=True, captions=['Nombre de naissances', 'Classement absolu', 'Classement relatif'])
+            fig = build_map(df_selnames, type_map)
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.write("Choisir un seul prénom pour obtenir la répartition par département.")
+
 
 
 def prenoms_populaires():

@@ -1,6 +1,8 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import json
+# from urllib.request import urlopen
 
 
 @st.cache_data
@@ -43,7 +45,12 @@ def get_departments(df):
 
 @st.cache_data
 def get_year_range(df):
-    return df['année'].min(), df['année'].max()
+    year_min = df['année'].min()
+    year_max = df['année'].max()
+    if year_min == year_max:
+        return year_min, year_max + 1
+    else:
+        return year_min, year_max
 
 
 @st.cache_data
@@ -87,43 +94,48 @@ def get_all_stats(df_allnames):
     return df_allnames_grp
 
 @st.cache_data
-def build_map(df):
-    france_departments = px.data.gapminder().query("country == 'France'")
+def get_departement_stats(names_list, df_allnames):
+    print(df_allnames)
+    df_allnames_grp = df_allnames.groupby('département').agg(nombre=('nombre', 'sum')).reset_index()
+    print(df_allnames_grp)
+    return df_allnames
+
+
+@st.cache_data
+def build_map(df, type_map):
+    df = df.groupby(['département']).agg(nombre=('nombre', 'sum')).reset_index()
+
+    # with urlopen('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements-version-simplifiee.geojson') as f:
+    with open('./data/carte-de-france-et-outre-mers-new.geojson') as f:
+        geojson = json.load(f)
+
+    full_df = pd.DataFrame({
+        'nom': [feature['properties']['Département'] for feature in geojson['features'] if 'code' in feature['properties']],
+        'département': [feature['properties']['code'] for feature in geojson['features'] if 'code' in feature['properties']]
+    })
+    full_df['nombre'] = 0
+
+    for _, r in df.iterrows():
+        full_df.loc[full_df['département'] == r['département'], 'nombre'] = r['nombre']
+
+    color_continuous_scale = ['#ffffff', '#FF4B4B']
+
     fig = px.choropleth_mapbox(
-        france_departments,
-        geojson='https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson',
-        locations='iso_alpha',
+        full_df,
+        geojson=geojson,
         featureidkey='properties.code',
-        color='lifeExp',
-        hover_name='country',
-        hover_data=['iso_alpha', 'lifeExp'],
-        color_continuous_scale="Viridis",
-        mapbox_style="carto-positron",
-        zoom=4,
-        center={"lat": 46.603354, "lon": 1.888334}
+        locations='département',
+        color='nombre',
+        center={"lat": 46.5, "lon": 2.4},
+        zoom=4.4,
+        mapbox_style="white-bg",
+        hover_name='nom',
+        opacity=1.,
+        color_continuous_scale=color_continuous_scale
     )
-    fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 
-
-
-    from urllib.request import urlopen
-    import json
-    import numpy as np
-
-    with urlopen('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements-version-simplifiee.geojson') as response:
-        geojson = json.load(response)
-    df = pd.DataFrame([x['properties'] for x in geojson['features']])
-    df['randNumCol'] = np.random.randint(0, 10, df.shape[0]).astype('str')
-
-    fig = px.choropleth_mapbox(df, geojson=geojson, featureidkey='properties.code', locations='code', 
-                            color="randNumCol", center = {"lat":47, "lon":2}, zoom=4.3, mapbox_style="carto-positron",
-                            opacity=0.5)
-
-    fig.update_layout(mapbox_style="open-street-map",
-                    showlegend=False,
-                    margin={"r":0,"t":0,"l":0,"b":0}, 
-                    width=600, 
-                    height=500
-                    )
+    fig.update_layout(
+        margin={"r": 0, "t": 0, "l": 0, "b": 0},
+    )
 
     return fig
