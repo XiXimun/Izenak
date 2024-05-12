@@ -102,7 +102,7 @@ def get_departement_stats(names_list, df_allnames):
 
 
 @st.cache_data
-def build_map(df, type_map):
+def build_map(df, type_map, name):
     df = df.groupby(['département']).agg(nombre=('nombre', 'sum')).reset_index()
 
     # with urlopen('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements-version-simplifiee.geojson') as f:
@@ -134,8 +134,7 @@ def build_map(df, type_map):
         color_continuous_scale=color_continuous_scale
     )
 
-    fig.update_layout(
-        margin={"r": 0, "t": 0, "l": 0, "b": 0},
-    )
+    fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
+    fig.update_coloraxes(showscale=False)
 
     return fig

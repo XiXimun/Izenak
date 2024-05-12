@@ -53,8 +53,9 @@ def un_prenom():
 
         if len(names_list) == 1:
             # df_departement = get_departement_stats(names_list, df_allnames)
-            type_map = st.radio('Colorer la carte par:', ['nombre', 'popularité (rang)', 'popularité (%)'], horizontal=True, captions=['Nombre de naissances', 'Classement absolu', 'Classement relatif'])
-            fig = build_map(df_selnames, type_map)
+            # type_map = st.radio('Colorer la carte par:', ['nombre', 'popularité (rang)', 'popularité (%)'], horizontal=True, captions=['Nombre de naissances', 'Classement absolu', 'Classement relatif'])
+            type_map = 'nombre'
+            fig = build_map(df_selnames, type_map, names_list[0])
             st.plotly_chart(fig, use_container_width=True)
         else:
             st.write("Choisir un seul prénom pour obtenir la répartition par département.")
