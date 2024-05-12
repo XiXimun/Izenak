@@ -54,16 +54,26 @@ def get_year_range(df):
 
 
 @st.cache_data
-def get_names_stats(names_list, df_allnames):
+def get_names_stats(names_list, df_allnames, df_allnames_alldepartements):
     df_allnames_grp = df_allnames.groupby(['prénom', 'année']).agg(nombre=('nombre', 'sum')).reset_index()
-
-    df = pd.DataFrame()
+    df_year = pd.DataFrame()
     for _, df_allnames_iyear in df_allnames_grp.groupby('année'):
         df_allnames_iyear['popularité (rang)'] = df_allnames_iyear['nombre'].rank(method='max', ascending=False).astype('int')
         df_allnames_iyear['popularité (%)'] = (1. - df_allnames_iyear['nombre'].rank(method='max', ascending=False, pct=True))
         df_iyear = df_allnames_iyear[df_allnames_iyear['prénom'].isin(names_list)]
-        df = pd.concat([df, df_iyear])
-    return df
+        df_year = pd.concat([df_year, df_iyear])
+
+    df_allnames_grp2 = df_allnames_alldepartements.groupby(['prénom', 'département']).agg(nombre=('nombre', 'sum')).reset_index()
+    print(df_allnames_grp2)
+    df_dpt = pd.DataFrame()
+    for dpt, df_allnames_dpti in df_allnames_grp2.groupby('département'):
+        print(dpt)
+        df_allnames_dpti['popularité (rang)'] = df_allnames_dpti['nombre'].rank(method='max', ascending=False).astype('int')
+        df_allnames_dpti['popularité (%)'] = (1. - df_allnames_dpti['nombre'].rank(method='max', ascending=False, pct=True))
+        df_idpt = df_allnames_dpti[df_allnames_dpti['prénom'].isin(names_list)]
+        df_dpt = pd.concat([df_dpt, df_idpt])
+
+    return df_year, df_dpt
 
 
 @st.cache_data
@@ -93,6 +103,7 @@ def get_all_stats(df_allnames):
 
     return df_allnames_grp
 
+
 @st.cache_data
 def get_departement_stats(names_list, df_allnames):
     print(df_allnames)
@@ -101,9 +112,8 @@ def get_departement_stats(names_list, df_allnames):
     return df_allnames
 
 
-@st.cache_data
-def build_map(df, type_map, name):
-    df = df.groupby(['département']).agg(nombre=('nombre', 'sum')).reset_index()
+# @st.cache_data
+def build_map(df, type_map):
 
     # with urlopen('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements-version-simplifiee.geojson') as f:
     with open('./data/carte-de-france-et-outre-mers-new.geojson') as f:
@@ -114,18 +124,22 @@ def build_map(df, type_map, name):
         'département': [feature['properties']['code'] for feature in geojson['features'] if 'code' in feature['properties']]
     })
     full_df['nombre'] = 0
+    full_df['popularité (%)'] = 0
 
     for _, r in df.iterrows():
         full_df.loc[full_df['département'] == r['département'], 'nombre'] = r['nombre']
+        full_df.loc[full_df['département'] == r['département'], 'popularité (%)'] = r['popularité (%)']
 
     color_continuous_scale = ['#ffffff', '#FF4B4B']
+    if type_map == 'popularité (rang)':
+        color_continuous_scale = [color_continuous_scale[1], color_continuous_scale[0]]
 
     fig = px.choropleth_mapbox(
         full_df,
         geojson=geojson,
         featureidkey='properties.code',
         locations='département',
-        color='nombre',
+        color=type_map,
         center={"lat": 46.5, "lon": 2.4},
         zoom=4.4,
         mapbox_style="white-bg",
